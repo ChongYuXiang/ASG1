@@ -3,22 +3,25 @@
         <title>YOASOBI</title>
         <link rel="stylesheet" href="style.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
     </head>
 
-    <header class="centered">
-        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_yoasobi.svg/1920px-Logo_yoasobi.svg.png">
+    <header>
+        <button onClick="topFunction()" id="toTop"><img src="https://icons.veryicon.com/png/o/commerce-shopping/o2o-business-platform/back-to-the-top-9.png"></button>
+        <img class="centered" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_yoasobi.svg/1920px-Logo_yoasobi.svg.png">
     </header>
+    
 
     <body>
         <nav>
-            <button type="button"><h1>Profile</h1></button>
-            <button type="button"><h1>Events</h1></button>
-            <button type="button"><h1>Songs</h1></button>
-            <button type="button"><h1>Videos</h1></button>
+            <button onClick="navFunction1()"><h1>Profile</h1></button>
+            <button onClick="navFunction2()"><h1>Events</h1></button>
+            <button onClick="navFunction3()"><h1>Songs</h1></button>
+            <button onClick="navFunction4()"><h1>Videos</h1></button>
         </nav>
 
         <section id="profile">
-            <h1 class="centered">Artist Profile</h1>
+            <h1 class="headText">Artist Profile</h1>
             <div class="flexContainer">
                 <div class="flexItem">
                     <img src = "https://yoasobi.sozo.sg/wp-content/uploads/2023/11/cut1_1172_mini.jpg">
@@ -33,10 +36,20 @@
         </section>
 
         <section id="events">
-            <h1 class="centered">Live Events</h1>
+            <h1 class="headText">Live Events</h1>
             <div class="flexContainer">
                 <div class="flexItem">
-                    
+                    <h3>YOASOBI is coming to Singapore!</h3>
+                    <h3>Don't miss your chance to experience the irreplaceable sensation in their first solo concert in Singapore in 2024!</h3>
+                    <h3>Book your tickets now!</h3><br>
+                    <h3><span>Date</span>: 11 Jan</h3>
+                    <h3><span>Time</span>: 6:30PM SGT</h3>
+                    <h3><span>Location</span>: Resorts World Ballroom</h3>
+                    <h3><span>CAT 1 SEATED:</span> S$238</h3>
+                    <h3><span>CAT 2 SEATED:</span> S$198</h3>
+                    <h3><span>CAT 3 SEATED:</span> S$178</h3>
+                    <h3><span>CAT 4 SEATED:</span> S$128</h3><br>
+                    <h3 class="buyButton"><a href="https://ticketmaster.sg/activity/detail/24sg_yoasobi" target="_blank">BUY TICKETS</a></h3>
                 </div>
                 <div class="flexItem">
                     <img src = "https://yoasobi.sozo.sg/wp-content/uploads/2023/11/YOASOBI-SINGAPORE.png">
@@ -45,31 +58,32 @@
         </section>
 
         <section id="songs">
-            <h1 class="centered">Top Songs</h1>
+            <h1 class="headText">Top Songs</h1>
             <div class="flexContainer">
                 <div class="flexItem">
-
+                    <a href="https://orcd.co/yoasobi_idol"><img src = "https://www.yoasobi-music.jp/img/songs/idle.webp"></a>
                 </div>
                 <div class="flexItem">
-
+                    <a href="https://orcd.co/yoasobi_yorunikakeru"><img src = "https://media.discordapp.net/attachments/696207423257575505/1180086075943829544/IMG_5239.jpg?ex=657c23cd&is=6569aecd&hm=45080d57c2034a3a6942b4d00a8ca406b6c42a6164e6f53240c0648d9d7d189f&=&format=webp&width=670&height=670" width="700"></a>
                 </div>
             </div>
         </section>
 
         <section id="videos">
-            <h1 class="centered">Other Videos</h1>
+            <h1 class="headText">Other Videos</h1>
             <div class="flexContainer">
                 <div class="flexItem">
-
+                    <iframe width="700" height="393" src="https://www.youtube.com/embed/KPK23K7ipVo?si=sBMdyT7WepcajVKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="flexItem">
-
+                    <iframe width="700" height="393" src="https://www.youtube.com/embed/shZyg5VFI1Y?si=uuj_3-m7qitKlHEG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
     </body>
 
     <footer>
-        <h2 class = "centered">add contact info here</h2>
+        <h3 class="bottomText">Instagram: <a href = "https://www.instagram.com/yoasobi_staff_/" target="_blank" class="socialLink">https://www.instagram.com/yoasobi_staff_/</a></h3>
+        <h3 class="bottomText">X (Twitter): <a href = "https://twitter.com/YOASOBI_staff" target="_blank" class="socialLink">https://twitter.com/YOASOBI_staff</a></h3>
     </footer>
 </html>
