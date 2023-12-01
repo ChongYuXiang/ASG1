@@ -53,11 +53,7 @@ button:hover{
 
 .buyButton{
     background-color: rgb(255, 85, 85);
-    margin-left: 260px;
-    margin-right: 260px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+    color: white;
 }
 .buybutton:hover{
     background-color: rgb(255, 120, 120);
